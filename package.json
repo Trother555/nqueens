@@ -4,7 +4,7 @@
     "description": "A boilerplate to start developping a PixiJS game or animation using TypeScript (VS Code & Chrome).",
     "scripts": {
         "dev": "webpack-dev-server -d",
-        "build": "webpack"
+        "build": "webpack --config=webpack.config.prod.js"
     },
     "author": "Guillaume DESFORGES <aceus02@gmail.com>",
     "license": "MIT",

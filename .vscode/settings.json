@@ -2,7 +2,6 @@
     "nixEnvSelector.nixShellConfig": "${workspaceRoot}/shell.nix",
     "files.exclude": {
         "**/.git": true,
-        "dist/": true,
         "node_modules/": true
     },
     "vscode-color-picker.languages": [
