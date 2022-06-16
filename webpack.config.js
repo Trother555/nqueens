@@ -32,7 +32,7 @@ module.exports = {
     },
     plugins: [
         // No need to write a index.html
-        new HtmlWebpackPlugin(),
+        new HtmlWebpackPlugin({template: 'src/index.html'}),
         // Do not accumulate files in ./dist
         new CleanWebpackPlugin(),
         // Copy assets to serve them
